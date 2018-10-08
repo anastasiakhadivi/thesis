@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			console.log("ready freddy");
+			$("#to").hide();
+			$("#and").mouseenter(function(){
+				console.log("add to");
+				$("#to").show();
+			})
+			$("#my").mouseenter(function(){
+				$(this).text("the");
+			})
+			$("#flag").mouseenter(function(){
+				$(this).text("Flag of the United States of America");
+			})
+			$("#nation").mouseenter(function(){
+				$(this).text("Nation under God");
+			})
+		})
+	</script>
+	<style>
+		body{
+			width: 90vw;
+			margin: auto;
+			font-family: helvetica, sans-serif;
+			font-size: 4em;
+			line-height: 2em;
+			color:#4f6eb4;
+		}
+	</style>
+	<title>I pledge allegiance...</title>
+</head>
+<body>
+	<p>"I pledge allegiance to <span id="my" style="color:red">my</span> <span id="flag" style="color:red">Flag</span> <span id="and" style="color:red">and </span><span id="to" style="color:red"> to</span> the Republic for which it stands, one <span id="nation" style="color:red">Nation</span>, indivisible, with liberty and justice for all."  </p>
+</body>
+</html>
