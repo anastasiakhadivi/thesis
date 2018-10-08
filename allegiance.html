@@ -8,16 +8,20 @@
 			$("#to").hide();
 			$("#and").mouseenter(function(){
 				console.log("add to");
+				$("#and").css("color", "#4f6eb4")
 				$("#to").show();
 			})
 			$("#my").mouseenter(function(){
 				$(this).text("the");
+				$(this).css("color","#4f6eb4")
 			})
 			$("#flag").mouseenter(function(){
 				$(this).text("Flag of the United States of America");
+				$(this).css("color","#4f6eb4")
 			})
 			$("#nation").mouseenter(function(){
 				$(this).text("Nation under God");
+				$(this).css("color","#4f6eb4")
 			})
 		})
 	</script>
@@ -30,10 +34,11 @@
 			line-height: 2em;
 			color:#4f6eb4;
 		}
+
 	</style>
 	<title>I pledge allegiance...</title>
 </head>
 <body>
-	<p>"I pledge allegiance to <span id="my" style="color:red">my</span> <span id="flag" style="color:red">Flag</span> <span id="and" style="color:red">and </span><span id="to" style="color:red"> to</span> the Republic for which it stands, one <span id="nation" style="color:red">Nation</span>, indivisible, with liberty and justice for all."  </p>
+	<p>"I pledge allegiance to <span id="my" style="color:red">my</span> <span id="flag" style="color:red">Flag</span> <span id="and" style="color:red">and </span><span id="to"> to</span> the Republic for which it stands, one <span id="nation" style="color:red">Nation</span>, indivisible, with liberty and justice for all."  </p>
 </body>
 </html>
