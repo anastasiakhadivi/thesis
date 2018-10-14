@@ -8,7 +8,7 @@
 			}
 			
 			// array of words for liberty
-			var changeLiberty = ["Choice", "Emancipation", "Independence", "Opportunity", "Privilege", "Right", "Sanction", "Sovereignty", "Free Speech", "Birthright", "Power of choice","Liberty"];
+			var changeLiberty = ["choice", "emancipation", "independence", "opportunity", "privilege", "right", "sanction", "sovereignty", "free speech", "birthright", "power of choice","Liberty"];
 
 			// function for switching the words on every click(liberty)
 			function switchLiberty(){
@@ -17,7 +17,7 @@
 			}
 
 			// array of words for justice
-			var changeJustice = ["Authority", "Due process", "Honesty", "Integrity", "Law", "Right", "Truth", "Sanction", "Justness", "Legitimacy", "Rule", "Review", "Justice"];
+			var changeJustice = ["authority", "due process", "honesty", "integrity", "law", "right", "truth", "sanction", "justness", "legitimacy", "rule", "review", "justice"];
 
 			// function for switching the words on every click(justice)
 			function switchJustice(){
@@ -26,7 +26,7 @@
 			}
 
 			// array of words for all
-			var changeAll = ["Complete", "Entire", "Full", "Greatest", "Total", "Everyone", "People", "Every man", "Masses", "Generality", "Anybody", "Whole", "All"]
+			var changeAll = ["complete", "entire", "full", "greatest", "total", "everyone", "people", "every man", "masses", "generality", "anybody", "whole", "all"]
 			
 			// function for switching the words on every click(all)
 			function switchAll(){
