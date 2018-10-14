@@ -1,0 +1,11 @@
+body{
+	font-size:3em;
+	font-family: "helvetica", san-serif;
+	line-height: 1.5em;
+}
+.malleable{
+	color:red
+}
+.malleable:hover{
+	cursor: pointer;
+}
