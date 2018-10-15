@@ -1,13 +1,18 @@
 body{
-	font-size:4em;
+	font-size:7.4em;
 	font-family: "helvetica", san-serif;
 	line-height: 1.5em;
-	width: 90vw;
-	/*outline: 1px solid blue;*/
+	width: 95vw;
 	margin: auto;
+/*	text-align: center;*/
+	color: white;
+}
+p{
+	background-color: red;
+	padding-left: 4%;
 }
 .malleable{
-	color:red
+	color:#42a1f4;
 }
 .malleable:hover{
 	cursor: pointer;

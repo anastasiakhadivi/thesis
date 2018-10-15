@@ -1,0 +1,54 @@
+body{
+	font-size:4em;
+	font-family: "helvetica", san-serif;
+	line-height: 1.5em;
+	width: 95vw;
+	margin: auto;
+/*	text-align: center;*/
+	color: red;
+}
+p{
+/*	background-color: red;*/
+	padding-left: 4%;
+}
+.malleable{
+	color:#42a1f4;
+}
+.malleable:hover{
+	cursor: pointer;
+}
+h1{
+	font-weight: normal;
+/*	outline: 1px solid red;*/
+	position: absolute;
+	top: 35vh;
+}
+#anchors{
+	width: 5%;
+	text-align: center;
+	position: absolute;
+	right: 1vw;
+	font-size: .7em;
+	top: 4vh;
+	line-height: 2.5vh;
+}
+#anchors:hover{
+	cursor: pointer;
+}
+
+.current-anchor{
+	color: white;
+	-webkit-text-stroke: 1px red;
+
+}
+.past-anchor{
+	color: red;
+	-webkit-text-stroke: 1px red;
+}
+.full-pledge{
+	position: relative;
+	font-size: .9em;
+	top:0px;
+	line-height: 1.3em;
+}
+
