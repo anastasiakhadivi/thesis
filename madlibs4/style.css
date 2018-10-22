@@ -1,6 +1,6 @@
 body{
 	font-size:4em;
-	font-family: "helvetica", san-serif;
+	font-family: "rockwell", san-serif;
 	line-height: 1.5em;
 	width: 95vw;
 	margin: auto;
@@ -47,8 +47,8 @@ h1{
 }
 .full-pledge{
 	position: relative;
-	font-size: .9em;
+	font-size: .7em;
 	top:0px;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 

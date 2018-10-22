@@ -1,0 +1,14 @@
+body{
+	font-size:3.5em;
+	font-family: "rockwell", san-serif;
+	line-height: 1.3em;
+	width: 90vw;
+	/*outline: 1px solid blue;*/
+	margin: auto;
+}
+.malleable{
+	color:red
+}
+.malleable:hover{
+	cursor: pointer;
+}
