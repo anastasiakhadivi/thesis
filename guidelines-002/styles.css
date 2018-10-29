@@ -1,0 +1,29 @@
+img{
+	width: 20vw;
+}
+body{
+	width: 90vw;
+	height: 100vh;
+/*	outline:1px solid red;*/
+	color:white;
+	background-color: black;
+	font-family:"rockwell", san-serif;
+}
+#title-page{
+/*	outline: 1px solid yellow;*/
+	margin-top:30vh;
+	margin-left: 5vw;
+}
+h1{
+	font-size: 9em;
+	margin-bottom:0;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+h2{
+	font-size: 2em;
+	margin-top: -30px;
+}

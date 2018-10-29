@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pledge</title>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script>
+		$(document).ready(function(){
+			console.log("Readddddy freddy");
+			$("#change2").hide();
+			$("#change3").hide();
+			$("#change4").hide();
+			$(".nochanges-text").hide();
+			$("#review-anchor").hide();
+			$("#allegiance-anchor").addClass("current-anchor");
+
+			$("#allegiance-anchor").click(function(){
+				$("#allegiance-anchor").addClass("current-anchor");
+				$("#change1").show();
+
+				$("#change2").hide();
+				$("#change3").hide();
+				$("#change4").hide();
+
+			})	
+			// SECOND ANCHOR
+			$("#god-anchor").click(function(){
+				$("#god-anchor").addClass("current-anchor");
+				$("#change2").show();
+
+
+				$("#change1").hide();
+				$("#change3").hide();
+				$("#change4").hide();
+			})
+			// THIRD ANCHOR
+			$("#liberty-anchor").click(function(){
+				$("#liberty-anchor").addClass("current-anchor");
+				$("#change3").show();
+
+				$("#change1").hide();
+				$("#change2").hide();
+				$("#change4").hide();
+
+			})
+			// FOURTH ANCHOR
+			$("#justice-all-anchor").click(function(){
+				$(this).addClass("current-anchor");
+				$("#change4").show();
+
+				$("#change1").hide();
+				$("#change2").hide();
+				$("#change3").hide();
+
+				$("#review-anchor").show();
+
+			})
+			// REVIEW ANCHOR
+			$("#review-anchor").click(function(){
+				$(this).addClass("current-anchor");
+
+
+				$("#change1").show();
+				$("#change2").show();
+				$("#change3").show();
+				$("#change4").show();
+				$(".nochanges-text").show();
+
+				$("h1").addClass("full-pledge");
+
+
+			})
+		});	
+	</script> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		h1{
+			position: absolute;
+			/*outline: 1px solid red;*/
+			top: 75vh;
+			color:#42a1f4;
+		}
+		p{
+			position: relative;
+		}
+		a{
+			text-decoration: none;
+			color:red;
+		}
+
+	</style>
+</head>
+<body>
+	<p style="color:#42a1f4;">#newpledge</p>
+	<p>American language is extremely malleable. Two individuals can have vastly different views on what freedom, liberty and justice truely mean as they have several synonyms. Fill in your pledge and share!</p>
+	<p><a href="index.html" style="color:#42a1f4;">Create your pledge! </a></p>
+
+<!-- 	<div id="anchors">	
+		<div id="allegiance-anchor">•</div>
+		<div id="god-anchor">•</div>
+		<div id="liberty-anchor">•</div>
+		<div id="justice-all-anchor">•</div>
+		<div id="review-anchor">•</div>
+	</div>
+
+	<div class="pledge-changes">
+		<h1 id="change1">I pledge <span id="word-alleginance" class="malleable" onclick="switchAllegiance()" >allegiance</h1>
+		<h1 class="nochanges-text">to the Flag</h1>
+		<h1 class="nochanges-text">of the United States of America</h1>
+		<h1 class="nochanges-text">and to the Republic</h1>
+		<h1 class="nochanges-text">for which it stands,</h1>
+		<h1 id="change2">one Nation under <span id="word-god" class="malleable" onclick="switchGod()">God</span>,</h1>
+		<h1 id="change3">indivisible with <span id="word-liberty" class="malleable" onclick="switchLiberty()">liberty</h1>
+		<h1 id="change4">and <span id="word-justice" class="malleable" onclick="switchJustice()">justice</span> for <span id="word-all" class="malleable" onclick="switchAll()">all</span>. </h1>
+	</div> -->
+</body>
+</html>

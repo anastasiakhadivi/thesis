@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Allegiance fill in the blank</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				$("button").click(function(){
+					$("p").css({
+						"font-size": ".6em",
+						"background-color": "white",
+						"color": "red",
+						// "outline":"1px solid blue",
+						"margin-top": "-10px",
+						"margin-bottom":"-100px",
+					})
+					console.log("working button")
+				});
+		});
+
+	</script>
+</head>
+<body>
+	<!-- drop down menu -->
+	<!-- randomize on hover using the words -->
+	<!-- save your pledge -->
+	<!-- # -->
+	<p>I pledge allegiance</p>
+	<p>to the Flag </p>
+	<p>of the United States of America</p>
+	<p>and to the Republic</p>
+	<p>for which it stands,</p> 
+	<p>one Nation under <span id="word-god" class="malleable" onclick="switchGod()">God</span>,</p>
+	 <p>indivisible with <span id="word-liberty" class="malleable" onclick="switchLiberty()">liberty</span> </p>
+	 <p>and <span id="word-justice" class="malleable" onclick="switchJustice()">justice</span> for <span id="word-all" class="malleable" onclick="switchAll()">all</span>. </p>
+
+	 <button>View Pledge</button>
+
+
+</body>
+</html>
